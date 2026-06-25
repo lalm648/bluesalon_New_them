@@ -682,7 +682,7 @@ body.layout-boxed footer.site {
   .banner h2 { font-size: 26px; }
   .banner .bbtn { padding: 10px 26px; font-size: 12px; }
 
-  .editorial-title { font-size: 24px; margin-bottom: 26px; }
+  .editorial-title { font-size: 24px; margin-bottom: 26px;text-align: left; }
   .editorial-grid,
   .editorial-duo,
   .boutiques-grid {
