@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="has-boxed-layout">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Hanken+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="layout-boxed">
 
 <!-- ===== TOP BAR ===== -->
 <div class="topbar">
@@ -54,7 +54,7 @@
 
 <!-- ===== HERO ===== -->
 <section class="hero">
-  <div class="ph dark"><img src="https://images.unsplash.com/photo-1558191053-8edcb01e1da3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hero" onerror="this.remove()"><span class="tag">Hero</span></div>
+  <div class="ph dark"><img src="/uploads/homebanner.jpg" alt="Hero" onerror="this.remove()"><span class="tag">Hero</span></div>
   <div class="overlay"></div>
   <div class="content">
     <h1>Luxury, redefined</h1>
@@ -401,12 +401,12 @@
 
 <!-- ===== LAYOUT TOGGLE ===== -->
 <div class="layout-toggle" id="layout-toggle" role="group" aria-label="Layout width">
-  <span class="lt-opt active" data-layout="full">
+  <span class="lt-opt" data-layout="full">
     <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="6" width="22" height="12" rx="1"/></svg>
     Full
   </span>
   <span class="lt-divider"></span>
-  <span class="lt-opt" data-layout="boxed">
+  <span class="lt-opt active" data-layout="boxed">
     <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="6" width="14" height="12" rx="1"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="15" x2="4" y2="15"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="15" x2="23" y2="15"/></svg>
     1440
   </span>

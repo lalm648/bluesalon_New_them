@@ -200,8 +200,8 @@ nav.main a.gift:hover {
 }
 .arrow:hover { box-shadow: 0 4px 20px rgba(0,0,0,.16); transform: translateY(-50%) scale(1.06); }
 .arrow svg { width: 15px; height: 15px; stroke: #222; stroke-width: 1.6; fill: none; }
-.arrow.prev { left: 40px;top:50%; }
-.arrow.next { right: 40px;top:50%; }
+.arrow.prev { left: 30px;top:50%; }
+.arrow.next { right: 30px;top:50%; }
 .arrow.is-hidden { opacity: 0; pointer-events: none; }
 .cwrap .shop-him-carousel {
   width: max-content;
@@ -221,8 +221,8 @@ nav.main a.gift:hover {
   opacity: 1;
   pointer-events: auto;
 }
-.recommended-carousel .arrow.prev { left: 40px; }
-.recommended-carousel .arrow.next { right: 40px; }
+.recommended-carousel .arrow.prev { left: 30px; }
+.recommended-carousel .arrow.next { right: 30px; }
 
 /* ============================================================
    PRODUCT CARD — new arrivals
@@ -294,7 +294,7 @@ nav.main a.gift:hover {
    NEW ARRIVALS SPLIT
    ============================================================ */
 .arrivals { display: flex; gap: 40px; padding-top: 60px;padding-bottom: 0px!important; }
-.arrivals .left { flex: 0 0 260px; padding-top: 4px; }
+.arrivals .left { flex: 0 0 260px;}
 .arrivals .left h2 { font-size: 26px; margin-bottom: 28px; font-weight: 400; letter-spacing: .03em; }
 .arrivals .left .btn {
   display: block; width: 210px; text-align: left;
@@ -639,8 +639,27 @@ body.layout-boxed footer.site {
   .hero .chips { width: 100%; justify-content: center; gap: 10px; flex-wrap: wrap; }
   .hero .chips a { padding: 10px 24px; }
 
+  body.layout-boxed .hero ~ section,
+  body.layout-boxed .hero ~ section.section,
+  body.layout-boxed .hero ~ section.section-popular {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  body.layout-boxed .hero ~ section .pad,
+  body.layout-boxed .hero ~ section.section-popular .pad {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  body.layout-boxed .hero .ph img {
+    object-fit: cover;
+  }
+
   .cwrap { width: 100%;padding-left: 20px;; }
   .cwrap.full-width { padding: 0; }
+  body.layout-boxed .hero ~ section .cwrap {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .cwrap .carousel { width: auto; max-width: none; margin: 0; }
   .arrow { width: 40px; height: 40px; }
   .arrow.prev { left: 6px;display: none; }
