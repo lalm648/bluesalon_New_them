@@ -566,8 +566,14 @@ body.layout-boxed .section-popular:not(.recommended-section) .track.pad {
   padding-right: 0 !important;
 }
 body.layout-boxed footer.site {
-  padding-left: 20;
+  padding-left: 20px;
   padding-right: 20px;
+}
+body.layout-boxed .topbar,
+body.layout-boxed footer.site {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
 }
 .layout-toggle {
   position: fixed;
