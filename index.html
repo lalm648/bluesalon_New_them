@@ -54,7 +54,7 @@
 
 <!-- ===== HERO ===== -->
 <section class="hero">
-  <div class="ph dark"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=2400&h=1400&q=90" alt="Hero" onerror="this.remove()"><span class="tag">Hero</span></div>
+  <div class="ph dark"><img src="https://images.unsplash.com/photo-1558191053-8edcb01e1da3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hero" onerror="this.remove()"><span class="tag">Hero</span></div>
   <div class="overlay"></div>
   <div class="content">
     <h1>Luxury, redefined</h1>
@@ -94,7 +94,7 @@
 </section>
 
 <!-- ===== COLLECTION LIST ===== -->
-<section class="section collist" style="padding-bottom:0;">
+<section class="section collist no-top-p" style="padding-bottom:0;">
   <h2 class="h2">Collection List</h2>
   <div class="carousel">
     <div class="track" id="track-collection" style="gap:14px;"></div>
@@ -112,41 +112,83 @@
     <button class="poptab" data-tab="kids">Kids</button>
   </div>
   <div class="carousel">
-    <div class="track pad" id="track-popular" style="padding-right:0;"></div>
+    <div class="track pad" id="track-popular" style="padding-right:0;">
+      <div class="popcard"><div class="ph mid"><img src="https://cdn.shopify.com/s/files/1/0370/6444/1991/files/The_vibrant_sophistication_of_amethyst_captures_the_magic_of_the_festive_season_with_a_tiny_int.jpg" alt="Clothing" loading="lazy" onerror="this.remove()"><span class="tag">Clothing</span></div><span class="clabel">Clothing</span></div>
+      <div class="popcard"><div class="ph mid"><img src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=600&h=800&q=80" alt="Lingerie" loading="lazy" onerror="this.remove()"><span class="tag">Lingerie</span></div><span class="clabel">Lingerie</span></div>
+      <div class="popcard"><div class="ph mid"><img src="https://www.bluesalon.com/cdn/shop/files/ALL_bags_600x800_crop_center.png?v=18090478975276120042" alt="Bags" loading="lazy" onerror="this.remove()"><span class="tag">Bags</span></div><span class="clabel">Bags</span></div>
+      <div class="popcard"><div class="ph mid"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&h=800&q=80" alt="Footwear" loading="lazy" onerror="this.remove()"><span class="tag">Footwear</span></div><span class="clabel">Footwear</span></div>
+      <div class="popcard"><div class="ph mid"><img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=600&h=800&q=80" alt="Watches &amp; Accessories" loading="lazy" onerror="this.remove()"><span class="tag">Watches &amp; Accessories</span></div><span class="clabel">Watches &amp; Accessories</span></div>
+      <div class="popcard"><div class="ph mid"><img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=600&h=800&q=80" alt="Jewelry" loading="lazy" onerror="this.remove()"><span class="tag">Jewelry</span></div><span class="clabel">Jewelry</span></div>
+    </div>
     <button class="arrow prev" data-scroll="track-popular" data-dir="prev" aria-label="Previous popular categories" title="Previous popular categories"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="15 5 8 12 15 19"></polyline></svg></button>
     <button class="arrow next" data-scroll="track-popular" data-dir="next" aria-label="Next popular categories" title="Next popular categories"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 5 16 12 9 19"></polyline></svg></button>
   </div>
 </section>
 
-<!-- ===== BANNER: 2026 COLLECTION ===== -->
-<section class="banner">
-  <div class="ph dark"><img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=2400&h=900&q=90" alt="The 2026 Collection" onerror="this.remove()"><span class="tag">The 2026 Collection</span></div>
-  <div class="overlay" style="background:linear-gradient(90deg,rgba(0,0,0,.35),rgba(0,0,0,.05));position:absolute;inset:0;"></div>
-  <div class="bcontent">
-    <h2>The 2026 Collection</h2>
-    <a class="bbtn" href="#">Shop New</a>
+<!-- ===== EDITORIAL LUXURY GRID ===== -->
+<!-- <section class="section editorial-grid-section">
+  <h2 class="editorial-title">Trending This Week</h2>
+  <div class="editorial-grid">
+    <a class="editorial-card" href="#">
+      <div class="ph dark"><img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1200&h=1400&q=88" alt="Occasion Dressing" loading="lazy" onerror="this.remove()"><span class="tag">Occasion Dressing</span></div>
+      <div class="editorial-copy">
+        <h3>Occasion Dressing</h3>
+        <p>Elegant silhouettes and refined finishing touches for every event.</p>
+        <span>SHOP THE EDIT</span>
+      </div>
+    </a>
+    <a class="editorial-card" href="#">
+      <div class="ph dark"><img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&h=1400&q=88" alt="Golden Hour Style" loading="lazy" onerror="this.remove()"><span class="tag">Golden Hour Style</span></div>
+      <div class="editorial-copy">
+        <h3>Golden Hour Style</h3>
+        <p>Warm tones, sharp tailoring, and confident evening pieces.</p>
+        <span>SHOP THE EDIT</span>
+      </div>
+    </a>
+    <a class="editorial-card" href="#">
+      <div class="ph dark"><img src="https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1200&h=1400&q=88" alt="The Linen Edit" loading="lazy" onerror="this.remove()"><span class="tag">The Linen Edit</span></div>
+      <div class="editorial-copy">
+        <h3>The Linen Edit</h3>
+        <p>Relaxed textures and polished staples for summer days.</p>
+        <span>SHOP THE EDIT</span>
+      </div>
+    </a>
+    <a class="editorial-card" href="#">
+      <div class="ph dark"><img src="https://www.bluesalon.com/cdn/shop/files/Guerlain_Make_up-Blue_Salon_600x800_crop_center.jpg?v=11338411316482587791" alt="Beauty Rituals" loading="lazy" onerror="this.remove()"><span class="tag">Beauty Rituals</span></div>
+      <div class="editorial-copy">
+        <h3>Beauty Rituals</h3>
+        <p>Luxury fragrance, skincare, and makeup for a lasting impression.</p>
+        <span>SHOP THE EDIT</span>
+      </div>
+    </a>
+    <a class="editorial-card" href="#">
+      <div class="ph dark"><img src="https://www.bluesalon.com/cdn/shop/files/ALL_bags_600x800_crop_center.png?v=18090478975276120042" alt="Statement Accessories" loading="lazy" onerror="this.remove()"><span class="tag">Statement Accessories</span></div>
+      <div class="editorial-copy">
+        <h3>Statement Accessories</h3>
+        <p>Finishing pieces that bring quiet impact to every look.</p>
+        <span>SHOP THE EDIT</span>
+      </div>
+    </a>
+    <a class="editorial-card" href="#">
+      <div class="ph dark"><img src="https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&h=1400&q=88" alt="Home Objects" loading="lazy" onerror="this.remove()"><span class="tag">Home Objects</span></div>
+      <div class="editorial-copy">
+        <h3>Home Objects</h3>
+        <p>Considered pieces for modern spaces and thoughtful gifting.</p>
+        <span>SHOP THE EDIT</span>
+      </div>
+    </a>
   </div>
-</section>
+</section> -->
 
 <!-- ===== SHOP FOR HIM ===== -->
-<section class="section">
+<section class="shop-him-section">
   <div class="cwrap">
     <h2 class="h2">Shop for Him</h2>
-    <div class="carousel">
+    <div class="carousel shop-him-carousel">
       <div class="track" id="track-him"></div>
       <button class="arrow prev" data-scroll="track-him" data-dir="prev" aria-label="Previous shop for him items" title="Previous shop for him items"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="15 5 8 12 15 19"></polyline></svg></button>
       <button class="arrow next" data-scroll="track-him" data-dir="next" aria-label="Next shop for him items" title="Next shop for him items"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 5 16 12 9 19"></polyline></svg></button>
     </div>
-  </div>
-</section>
-
-<!-- ===== BANNER: FASHION'S NEW CHAPTER ===== -->
-<section class="banner">
-  <div class="ph dark"><img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=1800&h=700&q=80" alt="Fashion's New Chapter" onerror="this.remove()"><span class="tag">Fashion's New Chapter</span></div>
-  <div class="overlay" style="background:linear-gradient(90deg,rgba(0,0,0,.35),rgba(0,0,0,.05));position:absolute;inset:0;"></div>
-  <div class="bcontent">
-    <h2>Fashion's New Chapter</h2>
-    <a class="bbtn" href="#">Shop New</a>
   </div>
 </section>
 
@@ -164,7 +206,7 @@
 <section class="section-popular recommended-section">
   <h2 class="h2 pad h2-p-left">Recommended For You</h2>
   <div>
-    <div class="carousel">
+    <div class="carousel recommended-carousel">
       <div class="track pad" id="track-reco" style="padding-right:0;"></div>
       <button class="arrow prev" data-scroll="track-reco" data-dir="prev" aria-label="Previous recommended items" title="Previous recommended items"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="15 5 8 12 15 19"></polyline></svg></button>
       <button class="arrow next" data-scroll="track-reco" data-dir="next" aria-label="Next recommended items" title="Next recommended items"><svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="9 5 16 12 9 19"></polyline></svg></button>
@@ -172,11 +214,59 @@
   </div>
 </section>
 
+<!-- ===== BANNER: 2026 COLLECTION ===== -->
+<section class="banner">
+  <div class="ph dark"><img src="https://ounass-ae.atgcdn.ae/contentful/b3xlytuyfm3e/3erXmFgMFugVHKncHFkPNW/1b786782dcccf8c6ea9ad6454d8b535f/SS26_Sale_DSK_Phase3.1_EN.jpg?q=70" alt="The 2026 Collection" onerror="this.remove()"><span class="tag">The 2026 Collection</span></div>
+  <div class="overlay" style="background:linear-gradient(90deg,rgba(0,0,0,.35),rgba(0,0,0,.05));position:absolute;inset:0;"></div>
+  <div class="bcontent">
+    <h2>The 2026 Collection</h2>
+    <a class="bbtn" href="#">Shop New</a>
+  </div>
+</section>
+<!-- ===== EDITORIAL DUO ===== -->
+<section class="section editorial-duo-section">
+  <div class="editorial-duo">
+    <a class="editorial-card editorial-card-large" href="#">
+      <div class="ph dark"><img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=1200&h=1500&q=90" alt="For Every Invitation" loading="lazy" onerror="this.remove()"><span class="tag">For Every Invitation</span></div>
+      <div class="editorial-copy">
+        <h3>For Every Invitation</h3>
+        <span>SHOP THE EDIT</span>
+      </div>
+    </a>
+    <a class="editorial-card editorial-card-large" href="#">
+      <div class="ph dark"><img src="https://www.bluesalon.com/cdn/shop/files/BAQA_1024x1024_crop_center.png" alt="Summer Nights" loading="lazy" onerror="this.remove()"><span class="tag">Summer Nights</span></div>
+      <div class="editorial-copy">
+        <h3>Summer Nights</h3>
+        <span>SHOP THE EDIT</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- ===== DISCOVER OUR BOUTIQUES ===== -->
+<section class="section boutiques-section">
+  <h2 class="editorial-title">Discover our Boutiques</h2>
+  <div class="boutiques-grid">
+    <a class="boutique-card" href="#">
+      <div class="ph mid"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&h=650&q=88" alt="Beauty Lounge" loading="lazy" onerror="this.remove()"><span class="tag">Beauty Lounge</span></div>
+      <h3>Beauty Lounge</h3>
+    </a>
+    <a class="boutique-card" href="#">
+      <div class="ph mid"><img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=900&h=650&q=88" alt="Jewellery Boutique" loading="lazy" onerror="this.remove()"><span class="tag">Jewellery Boutique</span></div>
+      <h3>Jewellery Boutique</h3>
+    </a>
+    <a class="boutique-card" href="#">
+      <div class="ph mid"><img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&h=650&q=88" alt="Ounass Living" loading="lazy" onerror="this.remove()"><span class="tag">Ounass Living</span></div>
+      <h3>Home & Living</h3>
+    </a>
+  </div>
+</section>
+
 <!-- ===== FAVORITE BRANDS ===== -->
-<section class="section brands">
+<!-- <section class="section brands">
   <h2>Your Favorite Brands</h2>
   <div class="brandgrid" id="brandgrid"></div>
-</section>
+</section> -->
 
 <!-- ===== MORE TO EXPLORE (MEGA) ===== -->
 <!-- <section class="mega">
@@ -212,7 +302,7 @@
   </div>
 </section> -->
 <!-- ===== LUXURY MEETS MODERN LIVING ===== -->
-<section class="lux">
+<!-- <section class="lux">
   <div class="ph dark"><img src="https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=2400&h=1100&q=90" alt="Where Luxury Meets Modern Living" onerror="this.remove()"><span class="tag">Where Luxury Meets Modern Living</span></div>
   <div class="overlay" style="background:linear-gradient(90deg,rgba(0,0,0,.35),rgba(0,0,0,0));position:absolute;inset:0;"></div>
   <div class="lcontent">
@@ -222,7 +312,7 @@
       <a href="#">Shop New</a>
     </div>
   </div>
-</section>
+</section> -->
 <!-- ===== FOOTER ===== -->
 <footer class="site">
   <div class="fcols">
@@ -308,6 +398,19 @@
     </div>
   </div>
 </footer>
+
+<!-- ===== LAYOUT TOGGLE ===== -->
+<div class="layout-toggle" id="layout-toggle" role="group" aria-label="Layout width">
+  <span class="lt-opt active" data-layout="full">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="6" width="22" height="12" rx="1"/></svg>
+    Full
+  </span>
+  <span class="lt-divider"></span>
+  <span class="lt-opt" data-layout="boxed">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="6" width="14" height="12" rx="1"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="15" x2="4" y2="15"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="15" x2="23" y2="15"/></svg>
+    1440
+  </span>
+</div>
 
 <script>
   /* ---------- data ---------- */
@@ -432,19 +535,22 @@
   };
 
   const newArrivals = [
-    {name:'Samsonite Audrina Black Backpack', price:'$245.43', img:'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&h=800&q=80'},
-    {name:'Double Breasted Suede Trench Coat with self Belt', price:'$11,590', img:'https://images.unsplash.com/photo-1539533018447-63fcce2678e3?auto=format&fit=crop&w=600&h=800&q=80'},
-    {name:"Women's Grand Ambition Angelica Pumps", price:'$188.07', img:'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&h=800&q=80'},
-    {name:'Cashmere Blend Tailored Overcoat', price:'$2,140.00', img:'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&h=800&q=80'},
-    {name:'Structured Calf Leather Tote', price:'$1,290.00', img:'https://www.bluesalon.com/cdn/shop/files/ALL_bags_600x800_crop_center.png?v=18090478975276120042'},
+    
+    {vendor:'Samsonite', name:"Grand Ambition Angelica Pumps", price:'$188.07', img:'https://www.samsonite.com.qa/cdn/shop/files/Front_view_of_the_Samsonite_Voypod_Spinner_Large_in_Ivory_161184-1451_hi-res_FRONT34_1_300x450.jpg?v=1770561265'},
+    
+    {vendor:'Samsonite', name:'Audrina Black Backpack', price:'$245.43', img:'https://cdn.shopify.com/s/files/1/0370/6444/1991/files/Cerruti_1881_Women_s_Paris_Canvas_and_Leather_Shoulder_Bag_Beige_Tan_side_view_540x.jpg?v=1782029562'},
+    
+    {vendor:'Samsonite', name:'Evox Spinner Large — Mint', price:'$649.00', img:'https://cdn.shopify.com/s/files/1/0643/8820/2631/files/Front_view_of_the_Evox_Spinner_Large_luggage_in_Mint_160277-4824_hi-res_FRONT_2.jpg?v=1774506176'},
+    {vendor:'Max Mara', name:'Double Breasted Suede Trench Coat', price:'$11,590', img:'https://cdn.shopify.com/s/files/1/0370/6444/1991/files/1_ff4b35ac-086f-49cc-bb0f-4cc834124cd6_540x.png?v=1781784024'},
+    {vendor:'Samsonite', name:'Evox Spinner Large — Beige', price:'$649.00', img:'https://cdn.shopify.com/s/files/1/0643/8820/2631/files/Front_view_of_the_Evox_Spinner_Large_luggage_in_Beige_160277-1030_hi-res_FRONT_2.jpg?v=1774448134'},
+    {vendor:'Samsonite', name:'Spinner Hardside Luggage', price:'$520.00', img:'https://cdn.shopify.com/s/files/1/0643/8820/2631/files/153656_1041_hi-res_FRONT_2.jpg?v=1769666714'},
   ];
   const recommended = [
-    {name:'Linen waistcoat', price:'$2,325.00', img:'https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=600&h=800&q=80'},
-    {name:'Linen yarn cardigan - Beige', price:'$780.00', img:'https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&h=1333&q=90'},
-    {name:'101801 Icon Coat - Camel', price:'$4,395.00', img:'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&h=800&q=80'},
-    {name:'Large leather handbag - Black', price:'$3,729.00', img:'https://www.bluesalon.com/cdn/shop/files/ALL_bags_600x800_crop_center.png?v=18090478975276120042'},
-    {name:'Viscose and linen fluid twill shirt', price:'$3,250.00', img:'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=600&h=800&q=80'},
-    {name:'Tailored wool trousers', price:'$1,180.00', img:'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=600&h=800&q=80'},
+    {vendor:'Hermès', name:'Eau de Parfum 100ml', price:'$320.00', img:'https://cdn.shopify.com/s/files/1/0370/6444/1991/files/HMH121PER00144-100ml.jpg?v=1778351117'},
+    {vendor:'Paco Rabanne', name:'1 Million Parfum 100ml', price:'$185.00', img:'https://cdn.shopify.com/s/files/1/0370/6444/1991/files/Paco_Rabanne_1_Million_Parfum_100ml_9808_NA_2__99266.jpg?v=1781439294'},
+    {vendor:'Blue Salon', name:'Beauty Essential', price:'$210.00', img:'https://cdn.shopify.com/s/files/1/0370/6444/1991/files/BaseTransform1_92b1085a-a2c3-4a47-ad62-3f1f24f6bb89.jpg?v=1779095648'},
+    {vendor:'Calvin Klein', name:'Classic Knit Top', price:'$320.00', img:'https://cdn.shopify.com/s/files/1/0370/6444/1991/files/Frontal_View_-CIWGK0085804_01.jpg?v=1782306530'},
+    {vendor:'Emporio Armani', name:'Linen Tailored Blazer', price:'$890.00', img:'https://cdn.shopify.com/s/files/1/0370/6444/1991/files/Full_Layout_View_-EAJLN0001101_01.jpg?v=1782302880'},
   ];
   const brands = [
     {name:'Calvin Klein', img:'https://cdn.simpleicons.org/calvinklein/111111'},
@@ -523,12 +629,12 @@
 
   function renderProducts(id, items){
     document.getElementById(id).innerHTML = items.map(p =>
-      '<div class="pcard">'+ph(p.name,'',p.img)+'<div class="pname">'+p.name+'</div><div class="pprice">'+p.price+'</div></div>'
+      '<div class="pcard">'+ph(p.name,'',p.img)+'<div class="pinfo">'+(p.vendor?'<div class="pvendor">'+p.vendor+'</div>':'')+'<div class="pname">'+p.name+'</div><div class="pprice">'+p.price+'</div></div></div>'
     ).join('');
   }
   function renderReco(){
     document.getElementById('track-reco').innerHTML = recommended.map(p =>
-      '<div class="rcard">'+ph(p.name,'',p.img)+'<div class="meta"><div class="pname">'+p.name+'</div><div class="pprice">'+p.price+'</div></div></div>'
+      '<div class="rcard">'+ph(p.name,'',p.img)+'<div class="meta">'+(p.vendor?'<div class="pvendor">'+p.vendor+'</div>':'')+'<div class="pname">'+p.name+'</div><div class="pprice">'+p.price+'</div></div></div>'
     ).join('');
   }
   function renderCats(id, items){
@@ -547,7 +653,9 @@
     ).join('');
   }
   function renderBrands(){
-    document.getElementById('brandgrid').innerHTML = brands.map(b =>
+    const el = document.getElementById('brandgrid');
+    if(!el) return;
+    el.innerHTML = brands.map(b =>
       '<div class="cell"><img class="blogo" src="'+b.img+'" alt="'+b.name+'" onerror="this.remove()" onload="this.nextElementSibling.style.display=\'none\'"><span>'+b.name+'</span></div>'
     ).join('');
   }
@@ -652,6 +760,18 @@
 
   requestAnimationFrame(() => {
     document.querySelectorAll('.track').forEach(updateCarouselArrows);
+  });
+
+  /* ---------- layout toggle ---------- */
+  document.querySelectorAll('#layout-toggle .lt-opt').forEach(function(opt) {
+    opt.addEventListener('click', function() {
+      var mode = opt.getAttribute('data-layout');
+      document.body.classList.toggle('layout-boxed', mode === 'boxed');
+      document.documentElement.classList.toggle('has-boxed-layout', mode === 'boxed');
+      document.querySelectorAll('#layout-toggle .lt-opt').forEach(function(o) {
+        o.classList.toggle('active', o.getAttribute('data-layout') === mode);
+      });
+    });
   });
 </script>
 </body>
